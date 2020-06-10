@@ -1,0 +1,82 @@
+
+
+/* Generic styles */
+html {
+  font-family: helvetica;
+  font-style: normal;
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #404040;
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+
+/* links */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #404040;
+}
+
+/* category link */
+.postCategories {
+  line-height: 1;
+  color: #999;
+  text-decoration: none;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: color .3s ease-in!important;
+}
+
+/* article title */
+h2 {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+  padding: 5px 0px 0px 0px;
+}
+
+/* article summary */
+.articleExcerpt {
+  font-size: 13px;
+  text-decoration: none;
+}
+
+/* content grid styles */
+.contentGrid {
+  padding: 5rem;
+}
+
+.contentGrid > ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 2rem;
+  list-style: none;
+}
+
+.contentGrid > ul > li {
+  border: none;
+}
+
+.contentGrid > ul > li {
+  overflow: hidden;
+  position: relative;
+}
+
+.contentGrid > ul > li > a > img {
+  width: 100%;
+}
+
+
+
+
+

@@ -1,0 +1,86 @@
+
+/* globe map - city set-outs */
+.pageContent {
+  background-image: url('wander.jpg');
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: 800px;
+  background-position-y: 50px;
+  z-index: -1;
+  text-decoration: none;
+}
+
+.underConstruction {
+  padding-top: 400px;
+}
+
+.title {
+  color: white;
+  z-index: 1;
+  font-family: helvetica;
+  text-align: center;
+  font-size: 16px;
+  text-decoration: underline;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 2;
+}
+
+.title:hover {
+  text-decoration: none;
+}
+
+
+
+/* globe map - city set-outs for media max-width 900px */
+@media all and (max-width:900px) {
+  .pageContent {
+    background-size: 600px;
+  }
+
+  .underConstruction {
+    padding-top: 350px;
+  }
+
+  .title {
+    font-size: 15px;
+  }
+
+}
+
+
+/* globe map - city set-outs for media max-width 700px */
+@media all and (max-width:700px) {
+  .pageContent {
+    background-size: 300px;
+  }
+
+  .underConstruction {
+    padding-top: 200px;
+  }
+
+  .title {
+    font-size: 13px;
+  }
+
+}
+
+
+
+
+/* globe map - city set-outs for media max-width 400px */
+@media all and (max-width:400px) {
+  .pageContent {
+    background-size: 250px;
+  }
+
+  .underConstruction {
+    padding-top: 200px;
+  
+  }
+
+  .title {
+    font-size: 10px;
+  }
+
+}
